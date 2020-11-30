@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Interactive Web Page</title>
+<style >
+
+
+
+  * {
+        box-sizing: border-box;
+    }
+
+
+  h1 
+  {
+      margin-bottom: 50px;
+      text-align: center;
+  }
+
+
+
+   p
+{
+ background-color: grey;
+ margin-top: 70px;
+margin-left: 10px;
+
+ font-family: Helvetica;
+  text-align: left;
+  
+} 
+
+
+
+#d1,#d2,#d3 {
+  position: relative;
+  background-color: grey;
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 33%;
+  border:2px solid black;
+}
+
+h3 {
+
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+   
+}
+
+#c
+{
+  position: absolute;
+  background-color: pink;  
+ 
+  right: 0px;
+  
+  padding: 10px;
+  border: 3px solid black;
+
+}
+
+#b
+{
+  position: absolute;
+
+  background-color: red;  
+  top: 0px;
+  right: 0px;
+  clear: left;
+  padding: 10px;
+  border: 3px solid black;
+}
+
+#s
+{
+  position: absolute;
+
+  background-color: yellow;  
+  top: 0px;
+  right: 0px;
+  clear: left;
+  padding: 10px;
+  border: 3px solid black;
+  
+}
+
+
+
+
+@media (min-width: 992px) {
+  .row {
+  width: 100%;
+}
+ 
+ #d1 { width: 32%;
+
+  }
+ #d2  { width: 32%;
+
+  }
+  #d3 { width: 32%;
+
+  }
+
+  }
+
+
+
+
+
+
+@media  (min-width: 768px) and (max-width: 991px){
+  .row {
+  width: 100%;
+}
+ 
+ #d1 { width: 25%;
+
+  }
+ #d2  { width: 25%;
+ 
+
+  }
+  #d3 { width: 50%;
+
+  }
+
+  }
+
+
+
+
+  @media (max-width: 767px){
+  .row {
+  width: 100%;
+}
+ 
+ #d1 { width: 100%;
+
+  }
+ #d2  { width: 100%;
+
+  }
+  #d3 { width: 100%;
+
+  }
+
+  }
+
+
+
+
+
+
+
+
+</style>
+</head>
+<body>
+<h1> <u>Our Menu </u></h1>
+<div id="container">
+  <div id="d1">
+  <h3 id="c">Chicken</h3>
+  <p id="p1"> Chicken is the most common type of poultry in the world.It is very tasty and delicious. </p>
+  </div>
+
+
+ <div id="d2" >
+  <h3 id="b">Beef</h3>
+  <p id="p2" >Beef is the culinary name for meat from cattle, particularly skeletal muscle. </p>
+  </div>
+
+  <div id="d3">
+  <h3 id="s">Sushi</h3>
+  <p id="p3" >Sushi is a traditional Japanese dish.The  key ingredient is "sushi rice".</p>
+  </div>
+  
+
+
+</div>
+</body>
+</html>
